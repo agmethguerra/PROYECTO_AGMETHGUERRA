@@ -1,0 +1,26 @@
+{
+  "defaults": {
+    "male": {
+      "gender": "male",
+      "parts": {
+        "body": "body_male_01",
+        "hair": "hair_male_01",
+        "top": "top_basic_01",
+        "bottom": "bottom_basic_01",
+        "shoes": "shoes_basic_01",
+        "accessory": null
+      }
+    },
+    "female": {
+      "gender": "female",
+      "parts": {
+        "body": "body_female_01",
+        "hair": "hair_female_01",
+        "top": "top_basic_f01",
+        "bottom": "bottom_basic_f01",
+        "shoes": "shoes_basic_f01",
+        "accessory": null
+      }
+    }
+  }
+}

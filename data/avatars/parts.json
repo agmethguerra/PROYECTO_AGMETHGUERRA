@@ -1,0 +1,166 @@
+{
+  "parts": [
+    {
+      "id": "body_male_01",
+      "slot": "body",
+      "gender": ["male"],
+      "name": "Cuerpo masculino",
+      "type": "body",
+      "colors": { "skin": "#d7a77c" },
+      "unlock": "default"
+    },
+    {
+      "id": "body_female_01",
+      "slot": "body",
+      "gender": ["female"],
+      "name": "Cuerpo femenino",
+      "type": "body",
+      "colors": { "skin": "#e7b98b" },
+      "unlock": "default"
+    },
+    {
+      "id": "hair_male_01",
+      "slot": "hair",
+      "gender": ["male"],
+      "name": "Corto clásico",
+      "type": "hair",
+      "colors": { "hair": "#3b2f2f" },
+      "unlock": "default"
+    },
+    {
+      "id": "hair_male_02",
+      "slot": "hair",
+      "gender": ["male"],
+      "name": "Liso despeinado",
+      "type": "hair",
+      "colors": { "hair": "#2d1810" },
+      "unlock": "default"
+    },
+    {
+      "id": "hair_female_01",
+      "slot": "hair",
+      "gender": ["female"],
+      "name": "Coleta corta",
+      "type": "hair",
+      "colors": { "hair": "#4a2c2a" },
+      "unlock": "default"
+    },
+    {
+      "id": "hair_female_02",
+      "slot": "hair",
+      "gender": ["female"],
+      "name": "Media melena",
+      "type": "hair",
+      "colors": { "hair": "#3b2419" },
+      "unlock": "default"
+    },
+    {
+      "id": "top_basic_01",
+      "slot": "top",
+      "gender": ["male"],
+      "name": "Camiseta básica",
+      "type": "top",
+      "colors": { "cloth": "#4ecdc4" },
+      "unlock": "default"
+    },
+    {
+      "id": "top_basic_02",
+      "slot": "top",
+      "gender": ["male"],
+      "name": "Camiseta roja",
+      "type": "top",
+      "colors": { "cloth": "#e74c3c" },
+      "unlock": "default"
+    },
+    {
+      "id": "top_basic_f01",
+      "slot": "top",
+      "gender": ["female"],
+      "name": "Camiseta básica",
+      "type": "top",
+      "colors": { "cloth": "#ff6b9d" },
+      "unlock": "default"
+    },
+    {
+      "id": "top_basic_f02",
+      "slot": "top",
+      "gender": ["female"],
+      "name": "Top morado",
+      "type": "top",
+      "colors": { "cloth": "#9b59b6" },
+      "unlock": "default"
+    },
+    {
+      "id": "bottom_basic_01",
+      "slot": "bottom",
+      "gender": ["male"],
+      "name": "Pantalón vaquero",
+      "type": "bottom",
+      "colors": { "cloth": "#2c3e50" },
+      "unlock": "default"
+    },
+    {
+      "id": "bottom_basic_02",
+      "slot": "bottom",
+      "gender": ["male"],
+      "name": "Pantalón gris",
+      "type": "bottom",
+      "colors": { "cloth": "#7f8c8d" },
+      "unlock": "default"
+    },
+    {
+      "id": "bottom_basic_f01",
+      "slot": "bottom",
+      "gender": ["female"],
+      "name": "Falda vaquera",
+      "type": "bottom",
+      "colors": { "cloth": "#34495e" },
+      "unlock": "default"
+    },
+    {
+      "id": "bottom_basic_f02",
+      "slot": "bottom",
+      "gender": ["female"],
+      "name": "Pantalón negro",
+      "type": "bottom",
+      "colors": { "cloth": "#1a1a1a" },
+      "unlock": "default"
+    },
+    {
+      "id": "shoes_basic_01",
+      "slot": "shoes",
+      "gender": ["male"],
+      "name": "Zapatillas blancas",
+      "type": "shoes",
+      "colors": { "shoe": "#ecf0f1", "sole": "#2c3e50" },
+      "unlock": "default"
+    },
+    {
+      "id": "shoes_basic_02",
+      "slot": "shoes",
+      "gender": ["male"],
+      "name": "Botas negras",
+      "type": "shoes",
+      "colors": { "shoe": "#1a1a1a", "sole": "#000000" },
+      "unlock": "default"
+    },
+    {
+      "id": "shoes_basic_f01",
+      "slot": "shoes",
+      "gender": ["female"],
+      "name": "Zapatillas rosas",
+      "type": "shoes",
+      "colors": { "shoe": "#ffb6c1", "sole": "#d87093" },
+      "unlock": "default"
+    },
+    {
+      "id": "shoes_basic_f02",
+      "slot": "shoes",
+      "gender": ["female"],
+      "name": "Botines negros",
+      "type": "shoes",
+      "colors": { "shoe": "#2c2c2c", "sole": "#000000" },
+      "unlock": "default"
+    }
+  ]
+}

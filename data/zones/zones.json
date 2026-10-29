@@ -1,0 +1,227 @@
+{
+  "zones": {
+    "hub": {
+      "id": "hub",
+      "name": "Hub Central",
+      "mapFile": "maps/hub.json",
+      "spawns": [
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "exits": [
+        {
+          "id": "hub_to_zone_a",
+          "x": 2,
+          "y": 8,
+          "targetZone": "zone_a",
+          "targetSpawn": {
+            "x": 8,
+            "y": 2
+          }
+        },
+        {
+          "id": "hub_to_zone_b",
+          "x": 8,
+          "y": 2,
+          "targetZone": "zone_b",
+          "targetSpawn": {
+            "x": 2,
+            "y": 8
+          }
+        },
+        {
+          "id": "hub_to_zone_c",
+          "x": 10,
+          "y": 10,
+          "targetZone": "zone_c",
+          "targetSpawn": {
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "id": "hub_to_home",
+          "x": 1,
+          "y": 10,
+          "targetZone": "@home",
+          "targetSpawn": {
+            "x": 1,
+            "y": 1
+          }
+        }
+      ]
+    },
+    "zone_a": {
+      "id": "zone_a",
+      "name": "Zona A",
+      "mapFile": "maps/zone_a.json",
+      "spawns": [
+        {
+          "x": 8,
+          "y": 2
+        },
+        {
+          "x": 7,
+          "y": 2
+        }
+      ],
+      "exits": [
+        {
+          "id": "zone_a_to_hub",
+          "x": 8,
+          "y": 2,
+          "targetZone": "hub",
+          "targetSpawn": {
+            "x": 2,
+            "y": 8
+          }
+        }
+      ]
+    },
+    "zone_b": {
+      "id": "zone_b",
+      "name": "Zona B",
+      "mapFile": "maps/zone_b.json",
+      "spawns": [
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 7
+        }
+      ],
+      "exits": [
+        {
+          "id": "zone_b_to_hub",
+          "x": 2,
+          "y": 8,
+          "targetZone": "hub",
+          "targetSpawn": {
+            "x": 8,
+            "y": 2
+          }
+        }
+      ]
+    },
+    "zone_c": {
+      "id": "zone_c",
+      "name": "Terraza",
+      "mapFile": "maps/zone_c.json",
+      "spawns": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 1
+        }
+      ],
+      "exits": [
+        {
+          "id": "zone_c_to_hub",
+          "x": 1,
+          "y": 1,
+          "targetZone": "hub",
+          "targetSpawn": {
+            "x": 10,
+            "y": 10
+          }
+        }
+      ]
+    },
+    "home_room": {
+      "id": "home_room",
+      "name": "Mi cuarto",
+      "mapFile": "maps/home_room.json",
+      "instanced": true,
+      "entrySpawn": {
+        "x": 1,
+        "y": 1
+      },
+      "spawns": [
+        {
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "exits": [
+        {
+          "x": 1,
+          "y": 1,
+          "targetZone": "hub",
+          "targetSpawn": {
+            "x": 1,
+            "y": 10
+          }
+        }
+      ]
+    },
+    "home_apartment": {
+      "id": "home_apartment",
+      "name": "Mi departamento",
+      "mapFile": "maps/home_apartment.json",
+      "instanced": true,
+      "entrySpawn": {
+        "x": 1,
+        "y": 1
+      },
+      "spawns": [
+        {
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "exits": [
+        {
+          "x": 1,
+          "y": 1,
+          "targetZone": "hub",
+          "targetSpawn": {
+            "x": 1,
+            "y": 10
+          }
+        }
+      ]
+    },
+    "home_house": {
+      "id": "home_house",
+      "name": "Mi casa",
+      "mapFile": "maps/home_house.json",
+      "instanced": true,
+      "entrySpawn": {
+        "x": 1,
+        "y": 1
+      },
+      "spawns": [
+        {
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "exits": [
+        {
+          "x": 1,
+          "y": 1,
+          "targetZone": "hub",
+          "targetSpawn": {
+            "x": 1,
+            "y": 10
+          }
+        }
+      ]
+    }
+  }
+}

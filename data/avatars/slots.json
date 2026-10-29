@@ -1,0 +1,11 @@
+{
+  "slots": [
+    { "id": "gender", "label": "Género", "type": "toggle", "order": 0 },
+    { "id": "hair", "label": "Peinado", "type": "select", "order": 1 },
+    { "id": "top", "label": "Parte superior", "type": "select", "order": 2 },
+    { "id": "bottom", "label": "Parte inferior", "type": "select", "order": 3 },
+    { "id": "shoes", "label": "Calzado", "type": "select", "order": 4 },
+    { "id": "accessory", "label": "Accesorio", "type": "select", "order": 5 }
+  ],
+  "genders": ["male", "female"]
+}

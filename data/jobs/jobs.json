@@ -1,0 +1,44 @@
+{
+  "jobs": [
+    {
+      "id": "office_clerk",
+      "name": "Oficinista",
+      "place": "Oficinas",
+      "payPerGameDay": 50,
+      "tips": false,
+      "description": "Horario estable y buen sueldo base. Sin propinas."
+    },
+    {
+      "id": "market_cashier",
+      "name": "Cajero/a del mercado",
+      "place": "Mercado",
+      "payPerGameDay": 40,
+      "tips": false,
+      "description": "Atiende a los vecinos y vende alimentos."
+    },
+    {
+      "id": "souvenir_seller",
+      "name": "Vendedor/a de souvenirs",
+      "place": "Souvenir",
+      "payPerGameDay": 35,
+      "tips": true,
+      "description": "Tienda de decoración. Algunos clientes dejan propina."
+    },
+    {
+      "id": "club_bartender",
+      "name": "Bartender de discoteca",
+      "place": "Discoteca",
+      "payPerGameDay": 30,
+      "tips": true,
+      "description": "Sueldo bajo pero las propinas pueden ser muy altas."
+    },
+    {
+      "id": "casino_dealer",
+      "name": "Crupier de casino",
+      "place": "Casino",
+      "payPerGameDay": 45,
+      "tips": true,
+      "description": "Buen sueldo y propinas de quienes ganan."
+    }
+  ]
+}

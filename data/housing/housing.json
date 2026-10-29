@@ -1,0 +1,28 @@
+{
+  "housing": [
+    {
+      "id": "room",
+      "name": "Cuarto compartido",
+      "template": "home_room",
+      "deposit": 30,
+      "rentPerGameDay": 15,
+      "description": "Pequeño y barato. Te deja dinero para empezar."
+    },
+    {
+      "id": "apartment",
+      "name": "Departamento",
+      "template": "home_apartment",
+      "deposit": 90,
+      "rentPerGameDay": 45,
+      "description": "Más espacio para decorar. Renta media."
+    },
+    {
+      "id": "house",
+      "name": "Casa",
+      "template": "home_house",
+      "deposit": 140,
+      "rentPerGameDay": 85,
+      "description": "La más grande, pero te deja casi sin ahorros."
+    }
+  ]
+}

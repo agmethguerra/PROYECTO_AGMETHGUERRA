@@ -1,0 +1,29 @@
+{
+  "name": "infinitylife",
+  "version": "0.1.0",
+  "description": "Infinitylife - juego 2D online isométrico sobre una torre infinita",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "start": "node server/index.js",
+    "build:client": "node scripts/build-client.js"
+  },
+  "keywords": [
+    "game",
+    "isometric",
+    "websocket",
+    "multiplayer",
+    "canvas"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "nanoid": "^5.0.7",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

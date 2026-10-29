@@ -1,0 +1,21 @@
+# Blueprint de Render para el SERVIDOR del juego (WebSocket). Vercel solo aloja el cliente.
+# Railway y Fly funcionan igual: comando `npm start`, health check en /health.
+services:
+  - type: web
+    name: infinitylife-server
+    runtime: node
+    plan: starter            # el plan free se duerme tras 15 min sin tráfico y corta los WebSocket
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS   # tu web de Vercel, ej. https://infinitylife.vercel.app
+        sync: false

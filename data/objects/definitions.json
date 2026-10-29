@@ -1,0 +1,118 @@
+{
+  "definitions": {
+    "pillar": {
+      "name": "Pilar",
+      "w": 1,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 2.5,
+      "color": "#3a3a3a"
+    },
+    "crate": {
+      "name": "Caja",
+      "w": 1,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 1,
+      "color": "#5a5a5a"
+    },
+    "table": {
+      "name": "Mesa",
+      "w": 2,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 0.9,
+      "color": "#707070"
+    },
+    "rug": {
+      "name": "Alfombra",
+      "w": 2,
+      "h": 2,
+      "blocks": false,
+      "style": "flat",
+      "levels": 0,
+      "color": "#ffffff"
+    },
+    "bed": {
+      "name": "Cama",
+      "w": 2,
+      "h": 2,
+      "blocks": true,
+      "style": "box",
+      "levels": 0.7,
+      "color": "#666666",
+      "actions": [
+        "sleep"
+      ]
+    },
+    "toilet": {
+      "name": "Inodoro",
+      "w": 1,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 0.8,
+      "color": "#b0b0b0",
+      "actions": [
+        "toilet"
+      ]
+    },
+    "shower": {
+      "name": "Ducha",
+      "w": 1,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 2,
+      "color": "#7d8791",
+      "actions": [
+        "shower"
+      ]
+    },
+    "sink": {
+      "name": "Grifo",
+      "w": 1,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 1.0,
+      "color": "#9a9a9a",
+      "actions": [
+        "drink"
+      ]
+    },
+    "fridge": {
+      "name": "Nevera",
+      "w": 1,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 1.7,
+      "color": "#8a8a8a",
+      "actions": [
+        "eat"
+      ]
+    },
+    "sofa": {
+      "name": "Sofá",
+      "w": 2,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 0.9,
+      "color": "#4d4d4d"
+    },
+    "plant": {
+      "name": "Planta",
+      "w": 1,
+      "h": 1,
+      "blocks": true,
+      "style": "box",
+      "levels": 1.3,
+      "color": "#5f6f5f"
+    }
+  }
+}

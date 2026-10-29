@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinitylife</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        
+        <div id="ui-overlay">
+            <div id="hud-top">
+                <div id="zone-info">
+                    <span id="zone-name">Cargando...</span>
+                </div>
+                <div id="player-info">
+                    <span id="player-name"></span>
+                </div>
+                <button id="btn-personalizar" class="hud-btn">Cambiar avatar</button>
+                <button id="btn-logout" class="hud-btn">Salir</button>
+            </div>
+            
+            <div id="players-panel">
+                <div id="players-header">
+                    <span>Jugadores en zona</span>
+                    <span id="players-count">0 jugadores</span>
+                </div>
+                <div id="players-list"></div>
+            </div>
+            
+            <div id="chat-container">
+                <div id="chat-messages"></div>
+                <div id="chat-input-container">
+                    <input type="text" id="chat-input" placeholder="Escribe un mensaje... (Enter para chatear)" maxlength="100">
+                    <button id="chat-send">Enviar</button>
+                </div>
+            </div>
+            
+            <div id="debug-info">
+                <div>Click o WASD/Flechas para moverte | G para ver la cuadrícula</div>
+                <div id="coords"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="avatar-editor" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Elegir avatar</h2>
+                <button id="avatar-editor-close" class="modal-close">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="avatar-preview-section">
+                    <canvas id="avatar-preview" width="160" height="240"></canvas>
+                </div>
+                <div class="avatar-slots-section">
+                    <h3>Personaje</h3>
+                    <div id="avatar-slots"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="avatar-editor-apply" class="apply-btn">Aplicar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pantalla de login (Fase 3): se oculta cuando el servidor confirma tu entrada -->
+    <div id="login-screen" class="login-screen" hidden>
+        <div class="login-card">
+            <h1>Infinitylife</h1>
+            <p class="login-sub">Inicia sesión para guardar tu progreso</p>
+            <form id="login-form" autocomplete="on">
+                <div id="login-name-row" hidden>
+                    <input type="text" id="login-name" maxlength="16" autocomplete="nickname" aria-label="Nombre de jugador">
+                </div>
+                <div id="login-email-row">
+                    <input type="email" id="login-email" placeholder="Correo" autocomplete="email" aria-label="Correo">
+                </div>
+                <div id="login-pass-row">
+                    <input type="password" id="login-pass" placeholder="Contraseña" autocomplete="current-password" aria-label="Contraseña">
+                </div>
+                <button type="submit" id="login-submit" class="login-primary">Iniciar sesión</button>
+            </form>
+            <button type="button" id="login-google" class="login-secondary">Continuar con Google</button>
+            <button type="button" id="login-toggle" class="login-link">Crear una cuenta</button>
+            <div id="login-message" class="login-message" role="alert"></div>
+            <p id="login-mode-note" class="login-note" hidden>Modo desarrollo: Supabase no está configurado, tu progreso se guarda en un archivo local del servidor.</p>
+            <div class="login-divider"><span>o</span></div>
+            <button type="button" id="login-guest" class="login-secondary">Entrar como invitado <small>(no se guarda nada)</small></button>
+        </div>
+    </div>
+
+    <script type="module" src="js/core/game.js"></script>
+</body>
+</html>

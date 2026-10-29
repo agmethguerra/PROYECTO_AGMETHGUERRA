@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 40" width="24" height="40" role="img" aria-label="Infinita">
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".35" stop-color="#c9ced6"/>
+      <stop offset=".55" stop-color="#8d949e"/>
+      <stop offset=".8" stop-color="#dfe3e8"/>
+      <stop offset="1" stop-color="#9aa1ab"/>
+    </linearGradient>
+  </defs>
+  <!-- Infinito vertical: dos pentágonos que se cruzan en el centro, con un solo trazo -->
+  <path d="M12 20 L4 13 L7 3 L17 3 L20 13 L12 20 L4 27 L7 37 L17 37 L20 27 Z"
+        fill="rgba(200,206,214,.12)" stroke="url(#silver)" stroke-width="2.4"
+        stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

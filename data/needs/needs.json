@@ -1,0 +1,66 @@
+{
+  "needs": {
+    "hunger": {
+      "label": "Hambre",
+      "secondsPerPoint": 72,
+      "onZero": {
+        "type": "health",
+        "basePerMin": 1,
+        "growthPerMin": 0.5
+      }
+    },
+    "thirst": {
+      "label": "Sed",
+      "secondsPerPoint": 15,
+      "onZero": {
+        "type": "health",
+        "basePerMin": 1,
+        "growthPerMin": 0.5
+      }
+    },
+    "bladder": {
+      "label": "Vejiga",
+      "secondsPerPoint": 10,
+      "onZero": {
+        "type": "accident"
+      }
+    },
+    "energy": {
+      "label": "Energía",
+      "secondsPerPoint": 180,
+      "onZero": {
+        "type": "health",
+        "basePerMin": 0.5,
+        "growthPerMin": 0.25
+      }
+    },
+    "hygiene": {
+      "label": "Higiene",
+      "secondsPerPoint": 144,
+      "onZero": {
+        "type": "none"
+      }
+    }
+  },
+  "health": {
+    "label": "Salud",
+    "regen": {
+      "intervalSec": 15,
+      "amount": 1,
+      "requireAtLeast": {
+        "hunger": 25,
+        "thirst": 25,
+        "energy": 25
+      }
+    }
+  },
+  "faint": {
+    "healthAfter": 30,
+    "fine": 20,
+    "minNeedsAfter": 30
+  },
+  "accident": {
+    "bladderAfter": 40,
+    "hygienePenalty": 30
+  }
+}

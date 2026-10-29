@@ -1,0 +1,49 @@
+{
+  "interactions": {
+    "eat": {
+      "label": "Comer",
+      "status": "Comiendo",
+      "durationMs": 4000,
+      "effects": {
+        "hunger": 35
+      },
+      "consumes": {
+        "ration": 1
+      }
+    },
+    "drink": {
+      "label": "Beber agua",
+      "status": "Bebiendo",
+      "durationMs": 3000,
+      "effects": {
+        "thirst": 40
+      }
+    },
+    "toilet": {
+      "label": "Usar el baño",
+      "status": "En el baño",
+      "durationMs": 5000,
+      "set": {
+        "bladder": 100
+      }
+    },
+    "shower": {
+      "label": "Ducharse",
+      "status": "Duchándose",
+      "durationMs": 8000,
+      "set": {
+        "hygiene": 100
+      }
+    },
+    "sleep": {
+      "label": "Dormir",
+      "status": "Durmiendo",
+      "durationMs": 70000,
+      "ratePerSec": {
+        "energy": 1.7
+      },
+      "decayMultiplier": 0.4,
+      "endsWhenFull": "energy"
+    }
+  }
+}

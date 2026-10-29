@@ -1,0 +1,320 @@
+{
+  "id": "home_apartment",
+  "name": "Mi departamento",
+  "width": 10,
+  "height": 10,
+  "tiles": [],
+  "collision": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "heightMap": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "exits": [
+    {
+      "x": 1,
+      "y": 1,
+      "targetZone": "hub",
+      "targetSpawn": {
+        "x": 1,
+        "y": 10
+      }
+    }
+  ],
+  "objects": [
+    {
+      "id": "bed",
+      "type": "bed",
+      "x": 7,
+      "y": 1
+    },
+    {
+      "id": "fridge",
+      "type": "fridge",
+      "x": 1,
+      "y": 8
+    },
+    {
+      "id": "sink",
+      "type": "sink",
+      "x": 2,
+      "y": 8
+    },
+    {
+      "id": "toilet",
+      "type": "toilet",
+      "x": 8,
+      "y": 8
+    },
+    {
+      "id": "shower",
+      "type": "shower",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "id": "rug",
+      "type": "rug",
+      "x": 3,
+      "y": 3,
+      "w": 2,
+      "h": 2
+    },
+    {
+      "id": "sofa",
+      "type": "sofa",
+      "x": 4,
+      "y": 8
+    },
+    {
+      "id": "table",
+      "type": "table",
+      "x": 4,
+      "y": 4
+    },
+    {
+      "id": "plant",
+      "type": "plant",
+      "x": 8,
+      "y": 4
+    }
+  ]
+}

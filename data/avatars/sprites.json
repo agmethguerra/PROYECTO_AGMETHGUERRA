@@ -1,0 +1,23 @@
+{
+  "cellWidth": 128,
+  "cellHeight": 224,
+  "drawScale": 0.5,
+  "directions": ["down", "left", "right", "up"],
+  "idleFrame": 0,
+  "walkFrames": [0, 1],
+  "walkFrameMs": 190,
+  "characters": [
+    {
+      "id": "char_male_01",
+      "name": "Masculino",
+      "gender": "male",
+      "sheet": "/assets/avatars/sprites/avatar_male.png"
+    },
+    {
+      "id": "char_female_01",
+      "name": "Femenino",
+      "gender": "female",
+      "sheet": "/assets/avatars/sprites/avatar_female.png"
+    }
+  ]
+}
